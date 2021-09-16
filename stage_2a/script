@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# usage: ./script n
+# where n is number of times to run the test
+
+LIMIT=$@
+
+#./follow_test.run
+#./performance_test.run
+#./stress_test.run -n 10 -k 10
+
+for ((i=1;i<=LIMIT;i++));
+do
+    echo "Try $i"
+    ./follow_test.run
+    sleep 0.1
+done
