@@ -1,2 +1,2 @@
 # Babble
-A Multi threaded server for social networking in C
+A Multi threaded server for social networking implemented in C
